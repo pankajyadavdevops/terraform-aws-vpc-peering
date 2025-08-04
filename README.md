@@ -77,7 +77,7 @@ Replace **MIT** and **pankajyadavdevops** with the appropriate license and your 
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | pankajyadavdevops/labels/aws | 1.0.2 |
+| <a name="module_labels"></a> [labels](#module\_labels) | https://github.com/pankajyadavdevops/terraform-aws-labels.git | 1.0.2 |
 
 ## Resources
 
@@ -110,7 +110,7 @@ Replace **MIT** and **pankajyadavdevops** with the appropriate license and your 
 | <a name="input_label_order"></a> [label\_order](#input\_label\_order) | Label order, e.g. `name`,`Environment`. | `list(any)` | <pre>[<br>  "name",<br>  "environment"<br>]</pre> | no |
 | <a name="input_managedby"></a> [managedby](#input\_managedby) | ManagedBy, eg 'pankajyadavdevops'. | `string` | `"pankajyadavdevops"` | no |
 | <a name="input_name"></a> [name](#input\_name) | Name  (e.g. `app` or `cluster`). | `string` | `""` | no |
-| <a name="input_repository"></a> [repository](#input\_repository) | Terraform current module repo | `string` | `"https://github.com/pankajyadavdevops/terraform-aws-vpc-peering"` | no |
+| <a name="input_repository"></a> [repository](#input\_repository) | Terraform current module repo | `string` | `"https://github.com/pankajyadavdevops/terraform-aws-vpc-peering.git"` | no |
 | <a name="input_requestor_allow_remote_vpc_dns_resolution"></a> [requestor\_allow\_remote\_vpc\_dns\_resolution](#input\_requestor\_allow\_remote\_vpc\_dns\_resolution) | Allow requestor VPC to resolve public DNS hostnames to private IP addresses when queried from instances in the acceptor VPC. | `bool` | `true` | no |
 | <a name="input_requestor_vpc_id"></a> [requestor\_vpc\_id](#input\_requestor\_vpc\_id) | Requestor VPC ID. | `string` | n/a | yes |
 
